@@ -31,7 +31,7 @@ int main() {
 
 Each project has its own `Makefile`. To build:
 ```bash
-cd <ProjectName>
+cd <ProjectName>/<Language>
 make
 ```
 
