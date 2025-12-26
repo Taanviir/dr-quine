@@ -6,19 +6,8 @@ import (
 )
 
 func main() {
-	template := `package main
+	template := "package main\n\nimport (\n\t\"fmt\"\n\t\"os\"\n)\n\nfunc main() {\n\ttemplate := %q\n\tfmt.Printf(template, template)\n\tos.WriteFile(\"Grace_kid.go\", []byte(fmt.Sprintf(template, template)), 0644)\n}\n"
 
-import (
-	"fmt"
-	"os"
-)
-
-func main() {
-	template := %q
-	fmt.Printf(template, template)
-	os.WriteFile("Grace_kid.go", []byte(fmt.Sprintf(template, template)), 0644)
-}
-`
 	fmt.Printf(template, template)
 	os.WriteFile("Grace_kid.go", []byte(fmt.Sprintf(template, template)), 0644)
 }
