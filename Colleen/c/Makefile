@@ -1,4 +1,4 @@
-# Makefile for Colleen quine program
+# Makefile for Colleen quine program in C
 
 NAME = Colleen
 SRC = $(NAME).c
