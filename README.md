@@ -41,3 +41,6 @@ Then run the compiled executable to see it in action.
 
 - [Lex Fridman - Quines](https://www.youtube.com/watch?v=a-zEbokJAgY)
 - [Wikipedia - Quine](https://en.wikipedia.org/wiki/Quine_(computing))
+- [Rosetta Code](https://rosettacode.org/wiki/Quine)
+- [Tsoding](https://www.youtube.com/watch?v=GhYjEgRZjR8)
+
